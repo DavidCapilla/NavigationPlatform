@@ -14,10 +14,10 @@ The input of the problem is defined as follows:
 
 Example of input file:
 
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
+5 5  
+1 2 N  
+LMLMLMLMM  
+3 3 E  
 MMRMMRMRRM 
 
 The platform is a 5x5 grid.
@@ -30,7 +30,8 @@ Their instructions are to move forward twice, turn right, move forward twice, tu
 The output is expected to containg the final position and orientation of each one of the rovers.
 
 A simple example corresponding to the input example would be:
-1 3 N
+
+1 3 N  
 5 1 E
 
 
@@ -95,11 +96,11 @@ There have been created serveral files in order to validate the error management
 ## How to
 ### Compile program: 
    + Using the eclipse project located on the project folder,
-   + Compiling manually using the following commands:
-       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"driver.d" -MT"driver.o" -o "driver.o" "/path/to/src/driver.cpp"
-       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "/path/to/src/main.cpp"
-       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"receiver.d" -MT"receiver.o" -o "receiver.o" "/path/to/src/receiver.cpp"
-       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"rover.d" -MT"rover.o" -o "rover.o" "/path/to/src/rover.cpp"
+   + Compiling manually using the following commands:  
+       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"driver.d" -MT"driver.o" -o "driver.o" "/path/to/src/driver.cpp"  
+       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "/path/to/src/main.cpp"  
+       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"receiver.d" -MT"receiver.o" -o "receiver.o" "/path/to/src/receiver.cpp"  
+       g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"rover.d" -MT"rover.o" -o "rover.o" "/path/to/src/rover.cpp"  
        g++  -o "NavigationPlatform"  ./driver.o ./main.o ./receiver.o ./rover.o   
      where /path/to/src/ is your local path to the src folder.
 ### Execute program: Execute the resulting application as follows:
