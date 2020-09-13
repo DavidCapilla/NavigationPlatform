@@ -10,9 +10,14 @@ using namespace std;
 class receiver
 {
 	public:
-		// Read and store the mission information. No correctness of the file is checked, it is assumed that the order of the inputs are the correct ones and
+		receiver (void);
+
+		// Read and store the mission information. No correctness of the file is checked,
+	    // it is assumed that the order of the inputs are the correct ones and
 		// that the data type is also correct.
-		void get_signal(string filename);
+		void read_signal(string signal_filename);
+		void retrieve_platform_size_from_signal (void);
+		void retrieve_rovers_initial_information_from_signal (void);
 
 		// Attributes.
 		vector<int> platform_size;
@@ -20,6 +25,9 @@ class receiver
 		vector<vector<int>> initial_position;
 		vector<char> attitude;
 		vector<string> order;
+
+	private:
+		ifstream signal;
 };
 
 

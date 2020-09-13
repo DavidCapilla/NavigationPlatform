@@ -1,0 +1,2 @@
+Successful mission!
+Number of rovers: 0

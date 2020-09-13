@@ -1,0 +1,5 @@
+The mission stopped while trying to figure out what is wrong. The current status, that might be wrong or incomplete, is:
+Error during the movement of rovers. Not allowed to perform next move from rover 1: Step order M while rover was at position 2 3 E. Either the rover is going to collide with another rover or it is going to fall out the plateau. 
+Number of rovers: 2
+Current location of rover 1: 2 3 E
+Current location of rover 2: 3 3 E

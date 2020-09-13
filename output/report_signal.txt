@@ -1,0 +1,4 @@
+Successful mission!
+Number of rovers: 2
+Final location of rover 1: 1 3 N
+Final location of rover 2: 5 1 E

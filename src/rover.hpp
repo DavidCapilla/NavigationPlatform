@@ -10,13 +10,15 @@ using namespace std;
 class rover
 {
 	public:
-	    // Empty constructor
 	    rover();
-	    // Copy constructor
 	    rover(const rover &r);
 
 		// The method that makes the rover perform an action.
 		void run_step (char step_order);
+
+		void move_forward (void);
+		void turn_right (void);
+		void turn_left (void);
 
 		// Attributes
 		vector<int> current_position;

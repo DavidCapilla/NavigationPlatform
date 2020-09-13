@@ -1,0 +1,5 @@
+The mission stopped while trying to figure out what is wrong. The current status, that might be wrong or incomplete, is:
+Error during the initialization. Invalid reading of the position of rover 3. Its position is already busy by other rover. 
+Number of rovers: 3
+Current location of rover 1: 1 2 N
+Current location of rover 2: 3 3 E

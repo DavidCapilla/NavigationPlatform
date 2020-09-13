@@ -1,0 +1,3 @@
+The mission stopped while trying to figure out what is wrong. The current status, that might be wrong or incomplete, is:
+Error during the initialization. Invalid reading upper-right coordinates of the plateau. 
+Number of rovers: 2
